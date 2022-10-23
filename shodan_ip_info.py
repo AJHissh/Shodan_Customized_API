@@ -15,7 +15,7 @@ def shodan_ip_info():
             print(info)
             print('---------------------------------------------')
         except:
-            print('No information for that IP')            
+            print('No information for that IP or invalid API key')            
         finally:
             cont_or_exit = str(input('type yes to continue or type no to exit: '))
             print(cont_or_exit)
