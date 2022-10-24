@@ -17,7 +17,7 @@ This project is adds functionality to a basic use of the Shodan API (NOT the sho
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-1.1. If your API key is stored in the directory in the file shodan_api.json - you can go straight to the program
+ 1.1. If your API key is stored in the directory in the file shodan_api.json - you can go straight to the program
 
 ![shodan_saved_api](https://user-images.githubusercontent.com/74668676/197637533-00abcd36-ee04-4ad5-a346-80b9b2bb276d.PNG)
 
