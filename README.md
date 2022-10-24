@@ -4,7 +4,7 @@
 
 This project is adds functionality to a basic use of the Shodan API (NOT the shodan cli), allowing for structured input and repeatability.
 
-You can add this program to PATH so you can call it from the CLI - just make sure you're in a directory where you don't mind having files saved.
+You can add this program to PATH so you can call it from the CLI, renaming it to a shorter name would be best if you do this - Also, make sure you're in a directory where you don't mind having files saved.
 
 ## Usage
 * Run the script with python
