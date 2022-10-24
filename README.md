@@ -11,7 +11,7 @@ This project is adds functionality to a basic use of the Shodan API (NOT the sho
 * Follow prompts to choose options
 
 ## Output:
-1. Run the python file and enter your API
+    1. Run the python file and enter your API
 
 ![shodan1](https://user-images.githubusercontent.com/74668676/197636772-33a222ee-f466-4267-867f-0667146086f4.PNG)
 
@@ -27,7 +27,7 @@ This project is adds functionality to a basic use of the Shodan API (NOT the sho
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
-2. Data from your searches will be saved in the file directory.
+    2. Data from your searches will be saved in the file directory.
 
 
 ![shodan3](https://user-images.githubusercontent.com/74668676/197636907-278f95b2-4462-4411-8d78-8872f4c8598f.PNG)
