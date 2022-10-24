@@ -11,9 +11,16 @@ This project is adds functionality to a basic use of the Shodan API (NOT the sho
 * Follow prompts to choose options
 
 ## Output:
-![shodan1](https://user-images.githubusercontent.com/74668676/197404515-db602249-e83a-4906-a187-3b05e419d3cb.PNG)
-![shodan2](https://user-images.githubusercontent.com/74668676/197404521-8b26e75d-4094-4e46-82e2-83b083516283.PNG)
-![shodan3](https://user-images.githubusercontent.com/74668676/197404539-9fd2f351-106b-4266-ad74-67c0878361ae.PNG)
+Run the python file and enter your API
+![shodan1](https://user-images.githubusercontent.com/74668676/197636772-33a222ee-f466-4267-867f-0667146086f4.PNG)
+
+If your API key is stored in the directory in the file shodan_api.json - you can go straight to the program
+![shodan_saved_api](https://user-images.githubusercontent.com/74668676/197637533-00abcd36-ee04-4ad5-a346-80b9b2bb276d.PNG)
+** If you have reset your API key, you will have to delete shodan_api.json to input your new API key....for now.
+
+Data from your searches will be saved in the file directory.
+![shodan3](https://user-images.githubusercontent.com/74668676/197636907-278f95b2-4462-4411-8d78-8872f4c8598f.PNG)
+
 
 ## Author
 Written by [ajhissh](https://github.com/AJHissh)
