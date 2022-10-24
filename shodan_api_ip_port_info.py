@@ -1,0 +1,56 @@
+import shodan
+import requests
+
+print('--------------WELCOME TO THE EASE-OF-USE SHODAN API PROGRAM---------------')
+print('--------------------------------------------------------------------------')
+print('😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎')
+api_key = input('Please enter your shodan api key to get started: ')
+api = shodan.Shodan(api_key)
+print(api.data)
+
+def shodan_ip_info():
+    x = True  
+    while x is True:
+        ip_add = input('enter target IP address: ')
+        try:
+            info = api.host(ip_add)
+            print('There is no information for that IP')
+            print(info)
+            print('---------------------------------------------')
+        except shodan.APIError as error:
+            print('Error:', error)   
+        finally:
+            cont_or_exit = str(input('type yes to continue or type no to exit: '))
+            if cont_or_exit in ['Yes', 'yes', 'YES']:
+                x = True
+            elif cont_or_exit in ['No', 'no', 'NO']:
+                x = False
+                exit()
+
+def shodan_port_info():
+    x = True
+    while x == True:
+        try:
+            ip_add = input('enter target IP address: ')
+            host = requests.get(f"https://internetdb.shodan.io/{ip_add}").json()
+            print(host)
+        except:
+            print('No port information for that IP')            
+        finally:
+            cont_or_exit = str(input('type yes to continue or no to exit: '))
+            if cont_or_exit in ['Yes', 'yes', 'YES']:
+                x = True
+            elif cont_or_exit in ['No', 'no', 'NO']:
+                x = False
+                exit()
+
+
+select = input('Type in 1 for IP address info OR Type in 2 for IP Port Info: ')
+
+if select == '1':
+    shodan_ip_info()
+if select == '2':
+    shodan_port_info()
+else:
+    print('Did not select an option')
+    exit()
