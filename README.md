@@ -2,7 +2,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-This project is adds functionality to a basic use of the Shodan API (NOT the shodan cli), allowing for structured input and repeatability.
+This project adds functionality to a basic use of the Shodan API (NOT the shodan cli), allowing for structured input and repeatability.
 
 You can add this program to PATH so you can call it from the CLI, renaming it to a shorter name would be best if you do this - Also, make sure you're in a directory where you don't mind having files saved or modify code so that you can save/open the files from wherever you please.
 
@@ -13,7 +13,7 @@ You can add this program to PATH so you can call it from the CLI, renaming it to
 * Follow prompts to choose options
 
 ## Output:
-    1. Run the python file and enter your API
+    1. Run the python file and enter your API key
 
 ![shodan1](https://user-images.githubusercontent.com/74668676/197636772-33a222ee-f466-4267-867f-0667146086f4.PNG)
 
